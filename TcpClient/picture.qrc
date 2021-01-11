@@ -1,0 +1,15 @@
+<RCC>
+    <qresource prefix="/new/prefix1">
+        <file>icon/11.jpg</file>
+        <file>icon/1.png</file>
+        <file>finger.bmp</file>
+        <file>finger.jpg</file>
+        <file>icon/back.jpg</file>
+        <file>icon/aback.png</file>
+        <file>icon/gback.png</file>
+        <file>icon/pback.png</file>
+        <file>icon/shback.png</file>
+        <file>icon/yback.png</file>
+        <file>icon/zback.png</file>
+    </qresource>
+</RCC>

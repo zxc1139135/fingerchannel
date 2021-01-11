@@ -1,0 +1,13 @@
+<RCC>
+    <qresource prefix="/new/prefix1">
+        <file>icon/picture.qrc</file>
+        <file>../TcpClient/icon/back.jpg</file>
+        <file>icon/back.jpg</file>
+        <file>icon/zbanck.png</file>
+        <file>icon/aback.png</file>
+        <file>icon/gback.png</file>
+        <file>icon/pback.png</file>
+        <file>icon/shback.png</file>
+        <file>icon/yback.png</file>
+    </qresource>
+</RCC>

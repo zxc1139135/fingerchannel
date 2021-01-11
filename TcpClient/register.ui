@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Register</class>
+ <widget class="QWidget" name="Register">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>787</width>
+    <height>480</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>客户端</string>
+  </property>
+  <widget class="QPushButton" name="pushButton">
+   <property name="geometry">
+    <rect>
+     <x>370</x>
+     <y>380</y>
+     <width>101</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>楷体</family>
+     <pointsize>16</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton#pushButton{
+
+background-color: rgba(255, 255, 255, 0);
+
+border:2px solid gray;border-radius:10px;
+
+}
+
+ 
+QPushButton#pushButton:hover{ 
+
+background-color: rgba(255, 255, 255, 150);
+
+border:8px solid red;border-radius:10px;
+
+}
+
+QPushButton#pushButton:pressed{
+
+background-color: rgba(255, 255, 255, 150);
+
+border:8px solid red;border-radius:10px;
+
+} </string>
+   </property>
+   <property name="text">
+    <string>返回</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_2">
+   <property name="geometry">
+    <rect>
+     <x>530</x>
+     <y>320</y>
+     <width>121</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>楷体</family>
+     <pointsize>16</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton#pushButton_2{
+
+background-color: rgba(255, 255, 255, 0);
+
+border:2px solid gray;border-radius:10px;
+
+}
+
+ 
+QPushButton#pushButton_2:hover{ 
+
+background-color: rgba(255, 255, 255, 150);
+
+border:8px solid red;border-radius:10px;
+
+}
+
+QPushButton#pushButton_2:pressed{
+
+background-color: rgba(255, 255, 255, 150);
+
+border:8px solid red;border-radius:10px;
+
+} </string>
+   </property>
+   <property name="text">
+    <string>指纹处理</string>
+   </property>
+  </widget>
+  <widget class="QTextEdit" name="textEdit">
+   <property name="geometry">
+    <rect>
+     <x>210</x>
+     <y>90</y>
+     <width>431</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 75 14pt &quot;微软雅黑&quot;;
+border:0.5px solid gray;border-radius:5px;</string>
+   </property>
+   <property name="html">
+    <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'微软雅黑'; font-size:14pt; font-weight:72; font-style:normal;&quot;&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'SimSun'; font-size:16pt; font-weight:400;&quot;&gt;&lt;br /&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_7">
+   <property name="geometry">
+    <rect>
+     <x>200</x>
+     <y>320</y>
+     <width>101</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>楷体</family>
+     <pointsize>16</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton#pushButton_7{
+
+background-color: rgba(255, 255, 255, 0);
+
+border:2px solid gray;border-radius:10px;
+
+}
+
+ 
+QPushButton#pushButton_7:hover{ 
+
+background-color: rgba(255, 255, 255, 150);
+
+border:8px solid red;border-radius:10px;
+
+}
+
+QPushButton#pushButton_7:pressed{
+
+background-color: rgba(255, 255, 255, 150);
+
+border:8px solid red;border-radius:10px;
+
+} </string>
+   </property>
+   <property name="text">
+    <string>确定</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_3">
+   <property name="geometry">
+    <rect>
+     <x>50</x>
+     <y>100</y>
+     <width>121</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>楷体</family>
+     <pointsize>20</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLabel#label_3:hover{ 
+
+background-color: rgba(255, 255, 255, 150);
+
+border:8px solid red;border-radius:10px;
+
+}</string>
+   </property>
+   <property name="text">
+    <string> 注册ID</string>
+   </property>
+  </widget>
+  <widget class="QTextEdit" name="show_txt">
+   <property name="geometry">
+    <rect>
+     <x>210</x>
+     <y>210</y>
+     <width>431</width>
+     <height>81</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border:0.5px solid gray;border-radius:5px;
+font: 12pt &quot;微软雅黑&quot;;
+</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_9">
+   <property name="geometry">
+    <rect>
+     <x>330</x>
+     <y>320</y>
+     <width>181</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>楷体</family>
+     <pointsize>16</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton#pushButton_9{
+
+background-color: rgba(255, 255, 255, 0);
+
+border:2px solid gray;border-radius:10px;
+
+}
+
+ 
+QPushButton#pushButton_9:hover{ 
+
+background-color: rgba(255, 255, 255, 150);
+
+border:8px solid red;border-radius:10px;
+
+}
+
+QPushButton#pushButton_9:pressed{
+
+background-color: rgba(255, 255, 255, 150);
+
+border:8px solid red;border-radius:10px;
+
+} </string>
+   </property>
+   <property name="text">
+    <string>客户端开启连接</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>50</x>
+     <y>230</y>
+     <width>141</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>楷体</family>
+     <pointsize>20</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLabel#label:hover{ 
+
+background-color: rgba(255, 255, 255, 150);
+
+border:8px solid red;border-radius:10px;
+
+}</string>
+   </property>
+   <property name="text">
+    <string> 注册结果</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>340</x>
+     <y>20</y>
+     <width>151</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>华光楷体_CNKI</family>
+     <pointsize>24</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>注册界面</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

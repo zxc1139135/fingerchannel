@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Client</class>
+ <widget class="QWidget" name="Client">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>796</width>
+    <height>470</height>
+   </rect>
+  </property>
+  <property name="font">
+   <font>
+    <family>华光黑变_CNKI</family>
+   </font>
+  </property>
+  <property name="windowTitle">
+   <string>Client</string>
+  </property>
+  <widget class="QPushButton" name="pushButton4">
+   <property name="geometry">
+    <rect>
+     <x>550</x>
+     <y>220</y>
+     <width>121</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>华光行楷_CNKI</family>
+     <pointsize>16</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton#pushButton4{
+
+background-color: rgba(255, 255, 255, 0);
+
+border:2px solid gray;border-radius:10px;
+
+}
+
+ 
+QPushButton#pushButton4:hover{ 
+
+background-color: rgba(255, 255, 255, 150);
+
+border:8px solid red;border-radius:10px;
+
+}
+
+QPushButton#pushButton4:pressed{
+
+background-color: rgba(255, 255, 255, 150);
+
+border:8px solid red;border-radius:10px;
+
+} </string>
+   </property>
+   <property name="text">
+    <string>注销</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton2">
+   <property name="geometry">
+    <rect>
+     <x>350</x>
+     <y>220</y>
+     <width>111</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>华光行楷_CNKI</family>
+     <pointsize>16</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton#pushButton2{
+
+background-color: rgba(255, 255, 255, 0);
+
+border:2px solid gray;border-radius:10px;
+
+}
+
+ 
+QPushButton#pushButton2:hover{ 
+
+background-color: rgba(255, 255, 255, 150);
+
+border:8px solid red;border-radius:10px;
+
+}
+
+QPushButton#pushButton2:pressed{
+
+background-color: rgba(255, 255, 255, 150);
+
+border:8px solid red;border-radius:10px;
+
+} </string>
+   </property>
+   <property name="text">
+    <string>登录</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton3">
+   <property name="geometry">
+    <rect>
+     <x>130</x>
+     <y>220</y>
+     <width>121</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>华光行楷_CNKI</family>
+     <pointsize>16</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton#pushButton3{
+
+background-color: rgba(255, 255, 255, 0);
+
+border:2px solid gray;border-radius:10px;
+
+}
+
+ 
+QPushButton#pushButton3:hover{ 
+
+background-color: rgba(255, 255, 255,255);
+
+border:8px solid red;border-radius:10px;
+
+}
+
+QPushButton#pushButton3:pressed{
+
+background-color: rgba(255, 255, 255, 255);
+
+border:8px solid red;border-radius:10px;
+
+} </string>
+   </property>
+   <property name="text">
+    <string>注册</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>170</x>
+     <y>70</y>
+     <width>481</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>华光楷体_CNKI</family>
+     <pointsize>24</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLabel#label:hover{ 
+
+background-color: rgba(255, 255, 255, 150);
+
+border:8px solid red;border-radius:10px;
+
+}</string>
+   </property>
+   <property name="text">
+    <string>  欢迎使用指纹认证系统- 客户端</string>
+   </property>
+  </widget>
+  <zorder>pushButton3</zorder>
+  <zorder>pushButton2</zorder>
+  <zorder>pushButton4</zorder>
+  <zorder>label</zorder>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <tabstops>
+  <tabstop>pushButton2</tabstop>
+  <tabstop>pushButton3</tabstop>
+  <tabstop>pushButton4</tabstop>
+ </tabstops>
+ <resources/>
+ <connections/>
+</ui>
